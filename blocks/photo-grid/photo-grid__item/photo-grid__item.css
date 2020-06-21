@@ -1,0 +1,14 @@
+.photo-grid__item {
+    width: 100%;
+    min-width: 213px;
+    object-fit: cover;
+}
+
+  @media all and (max-width: 425px) {
+    .photo-grid__item {
+      max-width: 352px;
+      max-height: 264px;
+      margin: auto;
+      transition: none;
+    }
+  }

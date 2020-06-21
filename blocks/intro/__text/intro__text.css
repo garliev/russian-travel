@@ -1,0 +1,10 @@
+@import url(../__text-accent/intro__text-accent.css);
+
+.intro__text {
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  max-width: 690px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
