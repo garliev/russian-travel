@@ -1,10 +1,20 @@
 .intro__content-row-main-text {
   max-width: 690px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 1rem;
   line-height: 1.625rem;
   color: #ffffff;
-  margin: 0;
+  margin: 0 0 32px;
 }
+
+@media all and (max-width: 768px) {
+  .intro__content-row-main-text{
+    max-width: 790px;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .intro__content-row-main-text{
+    max-width: 288px;
+  }
+}
+

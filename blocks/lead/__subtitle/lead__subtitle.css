@@ -1,12 +1,8 @@
 .lead__subtitle {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 1.875rem;
   line-height: 2.25rem;
   text-align: center;
   color: #ffffff;
-  margin-top: 32px;
   margin: 0;
   max-width: 640px;
  }
@@ -23,6 +19,5 @@
     max-width: 393px;
     font-size: 1rem;
     line-height: 1.4375rem;
-    margin-top: 8px;
   }
 }

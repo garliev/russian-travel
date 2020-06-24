@@ -1,18 +1,10 @@
-@import url(./__website_heading/place__website_heading.css);
-@import url(./__website_link/place__website_link.css);
-
 .place__website {
-    align-self: flex-end;
-  }
+  grid-area: place-website;
+  align-self: end;
+}
 
-  @media all and (max-width: 460px) {
-    .place__website {
-      display: none;
-    }
+@media screen and (max-width:767px) {
+  .place__website {
+    display: none;
   }
-  
-  @media all and (max-width: 425px) {
-    .place__website {
-      display: none;
-    }
-  }
+}

@@ -1,24 +1,29 @@
 @import url(../place/place.css);
 
 .places {
-    max-width: 984px;
-    margin: 92px auto 0;
+  max-width: 984px;
+  margin: 92px auto 92px;
 }
 
-@media all and (max-width : 768px) {
-    .places {
-      max-width: calc(100% - 48px);
-    }
+.places :last-child {
+  margin-bottom: 0;
+}
+
+
+@media screen and (max-width:1024px) {
+  .places {
+    max-width: 928px;
   }
-  
-  @media all and (max-width : 425px) {
-    .places {
-      max-width: calc(100% - 32px);
-    }
+}
+
+@media screen and (max-width:768px) {
+  .places {
+    max-width: 720px;
   }
-  
-  @media all and (max-width: 320px) {
+}
+
+@media screen and (max-width:424px) {
     .places {
-    width: calc(100% - 32px);
+        max-width: 100%;
     }
-  }
+}

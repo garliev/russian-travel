@@ -1,18 +1,35 @@
 .place__paragraph {
+  grid-area: place-paragraph; 
+  max-width: 484px; 
+  width: 100%;
+  margin: 0 0 24px;
   font-size: 1.125rem;
   line-height: 1.875rem;
-  margin: 0rem;
 }
 
-@media all and (max-width : 768px) {
+
+@media screen and (max-width:1024px) {
   .place__paragraph {
-    font-size: 1rem;
-    line-height: 1.6875rem;
-    max-width: 352px;
+    max-width: 434px;
   }
 }
-@media all and (max-width: 425px) {
+
+@media screen and (max-width:768px) {
   .place__paragraph {
-    max-width: 393px;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    max-width: 484px;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .place__paragraph {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .place__paragraph {
+    max-width: 100%;
   }
 }
