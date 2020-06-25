@@ -3,7 +3,7 @@
   line-height: 1.375rem;
   max-width: 360px;
   text-align: center;
-  margin: 32px 0 0;
+  margin: 0;
   z-index: 2;
 }
 
@@ -14,6 +14,5 @@
     max-width: 288px;
     font-size: 0.875rem;
     line-height: 1rem;
-    margin: 0;
   }
 }
