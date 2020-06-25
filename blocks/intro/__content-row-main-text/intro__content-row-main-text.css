@@ -4,11 +4,13 @@
   line-height: 1.625rem;
   color: #ffffff;
   margin: 0 0 32px;
+
 }
+
 
 @media all and (max-width: 768px) {
   .intro__content-row-main-text{
-    max-width: 790px;
+    max-width: 720px;
   }
 }
 

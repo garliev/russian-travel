@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./styles/index.css" />
     <title>Путешествия по России</title>
   </head>
+  
   <body class="page">
     <header class="header page__section">
       <img
@@ -15,8 +17,12 @@
         alt="карта России"
       />
       <ul class="header__lang">
-        <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
-        <a class="header__lang-link" href="#">En</a>
+        <li>
+          <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+        </li>
+        <li>
+          <a class="header__lang-link" href="#">En</a>
+        </li>
       </ul>
     </header>
     <section class="lead page__section">
@@ -24,7 +30,7 @@
       <p class="lead__subtitle">
         Настоящая страна не в выпусках новостей, а&nbsp;здесь.
       </p>
-      <img src="./sprint-3-images/polka.svg" alt="Карта" class="lead__map" />
+      <img src="./sprint-3-images/__lead.svg" alt="Карта" class="lead__map" />
       <p class="lead__caption">ваша полка — верхняя</p>
     </section>
     <section class="intro page__section">
@@ -187,7 +193,11 @@
       </article>
       <article class="place">
         <h2 class="place__title">Алтай</h2>
-        <img src="./sprint-3-images/place-altai.jpg" alt="Алтай" class="place__image" />
+        <img
+          src="./sprint-3-images/place-altai.jpg"
+          alt="Алтай"
+          class="place__image"
+        />
         <div class="place__website">
           <p class="place__url-heading">URL</p>
           <a
@@ -282,7 +292,7 @@
           По мотивам учебной темы о Транссибе и iframes — путешествие от столицы
           до Байкала на электричках.
         </p>
-        <div class="cover__overlay"></div> 
+        <div class="cover__overlay"></div>
       </a>
     </section>
     <section class="footer page__section">

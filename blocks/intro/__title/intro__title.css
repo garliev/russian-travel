@@ -1,27 +1,26 @@
 .intro__title {
-  font-family: Inter;
+  font-family: "Inter", "Arial", "Sans-serif";
   font-style: normal;
   font-weight: 900;
   font-size: 3.375rem;
   line-height: 3.625rem;
   color: #ffffff;
   max-width: 690px;
-  margin: 0 0 40px; 
+  margin: 0 0 40px;
 }
-
 
 @media all and (max-width: 768px) {
   .intro__title {
-  max-width: 720px;
-  font-size: 2.8rem;
-  line-height: 3rem;
+    max-width: 720px;
+    font-size: 54px;
+    line-height: 58px;
   }
 }
 
 @media all and (max-width: 425px) {
   .intro__title {
-   max-width: 288px;
-   font-size: 2rem;
-   line-height: 2.188rem;
+    max-width: 288px;
+    font-size: 2rem;
+    line-height: 2.188rem;
   }
 }

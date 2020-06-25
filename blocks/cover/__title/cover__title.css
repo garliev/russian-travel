@@ -23,6 +23,6 @@
   .cover__title {
     max-width: 288px;
     font-size: 2rem;
-    margin: 16px auto 33px;
+    margin: 16px auto;
   }
 }

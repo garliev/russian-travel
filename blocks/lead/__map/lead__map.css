@@ -7,7 +7,6 @@
 @media all and (max-width: 1024px) {
   
   .lead__map {
-    width:100vw;
     margin-top: 56px;
   }
 }
@@ -15,7 +14,6 @@
 @media all and (max-width: 425px) {
 
     .lead__map {
-      width:100vw;
       margin-top: 40px;
     }
   }
