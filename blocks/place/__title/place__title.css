@@ -2,31 +2,30 @@
   grid-area: place-title;
   font-weight: 900;
   font-size: 72px;
-line-height: 76px;
+  line-height: 76px;
   max-width: 460px;
   margin: 0;
   text-rendering: optimizeLegibility;
 }
 
-
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .place__title {
     max-width: 440px;
-    font-size: 2.625rem;
-    line-height: 4.75rem;
+    font-size: 3.375rem;
+    line-height: 3.625rem;
   }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
   .place__title {
     max-width: 340px;
     font-size: 42px;
     justify-self: start;
-    padding-left: calc(16*100%/320);
+    padding-left: calc(16 * 100% / 320);
   }
 }
 
-@media screen and (max-width:424px) {
+@media screen and (max-width: 424px) {
   .place__title {
     max-width: 288px;
     font-size: 2rem;

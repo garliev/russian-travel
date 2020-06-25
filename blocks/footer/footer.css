@@ -10,15 +10,25 @@
   max-width: 1184px;
 }
 
+@media all and (max-width : 1024px) {
+  .footer {
+    max-width: 928px;
+    
+  }
+}
+
 @media all and (max-width : 950px) {
   .footer {
     max-width: calc(100% - 48px);
+    
   }
 }
 
 @media all and (max-width : 768px) {
   .footer {
-    max-width: calc(100% - 48px);
+    max-width: 720px;
+    margin: 88px auto 24px;
+
   }
 }
 
