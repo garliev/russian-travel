@@ -7,7 +7,6 @@
 
 @media all and (max-width:700px) {
   .footer__links {
-    display: flex;
     flex-wrap: wrap;
   }
 }
@@ -15,7 +14,6 @@
 
 @media all and (max-width: 425px) {
   .footer__links {
-    display: flex;
     flex-direction: column;
   }
 }
